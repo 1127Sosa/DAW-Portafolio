@@ -1,0 +1,65 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(img/2.jpg)
+}
+
+.registros {
+    width: 400px;
+    background: #000000;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.registros h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.control{
+    width: 100%;
+    background:#fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.registros p{
+height: 20px;
+text-align: center;
+font-size: 14px;
+}
+
+.registros a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.registros a:hover{
+color: #fff;
+text-decoration: underline;
+}
+
+.registros button{
+    width: 50%;
+    background:#CAEB11 ;
+    border: 0;
+    padding: 20px;
+    color: #fff;
+    margin:10px 0;
+    font-size: 20px;
+}

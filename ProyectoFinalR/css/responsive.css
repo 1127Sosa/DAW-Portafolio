@@ -1,0 +1,41 @@
+/* nav */
+.navbar ul {
+flex-wrap: wrap;
+justify-content: center;
+}
+
+
+/* headings */
+.encabezado {
+font-size: 2.5rem ;
+}
+
+
+/* sobre mi */
+#pic {
+    flex-direction: column;
+    align-items: center;
+}
+
+#pic img {
+    width: 320px;
+    height: 280px ;
+}
+
+#intro h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+/* contactame */
+.input {
+    width: 60%;
+}
+
+#msg {
+    width: 55%;
+}
+
+#enviar {
+    width: 20%;
+}

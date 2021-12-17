@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" mg4>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+
+    <title>Formulario</title>
+</head>
+
+<body class="container">
+    <div>
+        <header class="text-center text-uppercase my-5">
+            <img src="/16730255_1856928417920400_2358813768430074752_n.png"  height="100px" width="100px" alt="Escudo">
+            <h1 class="fs-3">SOLICITUD DE EMPLEO</h1>
+            <P>Proporcione los datos que se solicitan a continuacion, de la manera mas cuidadosa y exacta posible. El presente documento no constituye
+                un contrato o una oferta de trabajo, Esta solicitud debe venir acompañada de certificados de estudios, fotografia reciente tamaño pasaporte,
+                cartas de recomendacion, y cualquier otro docuemnto de interes.
+            </P>
+        </header>
+
+        <div>
+            <form class="row-g-3">
+                <h1 class="fs-5">DATOS PERSONALES </h1>
+                <div class="row g-3">
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" placeholder="Nombre Completo" aria-label="Nombre Completo">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" placeholder="Cedula" aria-label="Cedula">
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Direccion Exacta" aria-label="Direccion Exacta">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Telefono" aria-label="Telefono">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Fax" aria-label="Fax">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                    </div>
+                    <div class="col-md-9">
+                        <label for="date">Fecha de nacimiento</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="form-check-label">Estado Civil</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                                checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Soltero
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                Casado
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                            <label class="form-check-label" for="exampleRadios3">
+                                Viudo
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Nombre del Padre" aria-label="Nombre del Padre">
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Nombre de la Madre" aria-label="Nombre de la Madre">
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" placeholder="Nombre del Conyugue" aria-label="Nombre del Conyugue">
+                    </div><div class="col-md-3">
+                        <input type="text" class="form-control" placeholder="Numero de Hijos" aria-label="Numero de Hijos">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="N° de Dependientes" aria-label="N° de Dependientes">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Parentesco" aria-label="Parentesco">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Profesion u Ofisio" aria-label="Profesion u Ofisio">
+                    </div>
+                    <h1 class="fs-5">OTROS DATOS</h1>
+                <div class="row g-3">
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Puesto Solicitado" aria-label="Puesto Solicitado">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="date">Fecha disponible</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="form-check-label">Que nivel de compensacion (aproximado) mensual considera usted apropiado?</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                                checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Menos de 10,000 Lps.
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                10,000 Lps.
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                            <label class="form-check-label" for="exampleRadios3">
+                                Mas de 10,000 Lps.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="form-check-label">Si posee licencia para conducir, anote el tipo</label>
+                        <input type="text" class="form-control" placeholder="Tipo de Lisencia" aria-label="Tipo de Lisencia">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="form-check-label">Tipo de sangre</label>
+                        <input type="text" class="form-control" placeholder="Tipo de Sangre" aria-label="Tipo de Sangre">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="form-check-label">Ha padecido alguna enfermedad o tiene algun empedimento fisico?</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                                checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Si
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="form-check-label">cual?
+                        </label>
+                        <input type="text" class="form-control" placeholder="" aria-label="cual?">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="form-check-label">Tiene parientes que trabajan en la municipalidad?</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                                checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Si
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="form-check-label">Si su respuesta es positiva, anote el nombre y parentesco?</label>
+                        <input type="text" class="form-control" placeholder="Nombre y Parentesco" aria-label="Nombre y Parentesco">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="form-check-label">Ha trabajado en la municipalidad?</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                                checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Si
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="date">Año</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="form-check-label">Ha trabajado para el estado ( Poderes de la republica, instituciones autonomas, sistemas Bancarios,
+                            municipalidades )
+                        </label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                                checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Si
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <label for="form-check-label">Si su respuesta es positiva, anote la institucion, periodo laborado y razon de salida
+                        </label>
+                        <input type="text" class="form-control" placeholder="Nombre de Institucion" aria-label="Nombre de Institucion">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="date">Año</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Razon de salida" aria-label="Razon de salida">
+                    </div>
+                    <h1 class="fs-5">ESTUDIOS</h1>
+                    <P>PRIMARIA</P>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Institucion" aria-label="Institucion">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="date">Año</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="date">Inicio</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div><div class="col-md-3">
+                        <label for="date">Termino</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Titulo Obtenido" aria-label="ITitulo Obtenido">
+                    </div>
+                    <P>SECUNDARIA</P>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Institucion" aria-label="Institucion">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="date">Año</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="date">Inicio</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div><div class="col-md-3">
+                        <label for="date">Termino</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Titulo Obtenido" aria-label="ITitulo Obtenido">
+                    </div>
+                    <P>UNIVERSIDAD</P>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Institucion" aria-label="Institucion">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="date">Año</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="date">Inicio</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div><div class="col-md-3">
+                        <label for="date">Termino</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Titulo Obtenido" aria-label="ITitulo Obtenido">
+                    </div>
+                    <P>COMERCIAL</P>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Institucion" aria-label="Institucion">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="date">Año</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="date">Inicio</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div><div class="col-md-3">
+                        <label for="date">Termino</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Titulo Obtenido" aria-label="ITitulo Obtenido">
+                    </div> <P>OTRAS</P>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Institucion" aria-label="Institucion">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="date">Año</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="date">Inicio</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div><div class="col-md-3">
+                        <label for="date">Termino</label>
+                        <div class="input-group date">
+                            <input type="text" class="form-control" id="datepicker">
+                            <span class="input-group-append">
+                                <span class="input-group-text bg-white d-block">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Titulo Obtenido" aria-label="ITitulo Obtenido">
+                    </div>
+                    <h1 class="fs-5">Para cursos, Talleres u Otros: Adicione docuemento</h1>
+                    <div class="col-md-6">
+                        <label for="form-check-label">Estudia actualmente</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                                checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Si
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="form-check-label">Si es afirmativo indique</label>
+                        <input type="text" class="form-control" placeholder="Estudio" aria-label="Estudio">
+                    </div>
+                    <p>Describa sus aptitudes laborales, tome en consideracion los vehiculos y herramientas que sabe operar y cualquier
+                        informacion adicional que considere relevante.
+                    </p>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="" id="floatingTextarea2"
+                            style="height: 100px"></textarea>
+                        <label for="floatingTextarea2"></label>
+                    </div>
+    </div>
+</body>
+
+</html>

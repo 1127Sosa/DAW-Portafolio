@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: url(img/blanco.jpg);
+    background-size: 100% 50%;
+    font-size: 18px;
+}
+
+
+body div{
+    
+    margin-left: 70px; 
+}
+
+.layout{
+    width: 800px;
+    margin: 150px 150px;
+}
+
+.layout div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.layout h3{
+    font-size: 30px;
+    padding: 10px 0;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    
+}
+
+
+.layout-left .texto{
+    width: 200px;
+}
+
+.layout-left div{
+    width: 400px;
+    text-align:center;
+}
+
+.layout-rigth .texto{
+    width: 200px;
+}
+
+.layout-rigth div{
+    width: 400px;
+    text-align: center;
+   
+}
+

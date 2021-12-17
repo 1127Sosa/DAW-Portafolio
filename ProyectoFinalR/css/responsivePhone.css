@@ -1,0 +1,39 @@
+/* inicio */
+#inicio {
+    height: 807px;
+}
+
+.encabezado {
+    font-size: 1.7rem;
+}
+
+/* sobre mi */
+#pic img {
+    width: 200px;
+    height:220px ;
+}
+
+#intro h2 {
+    font-size: 1.5rem;
+}
+
+/* portafolio */
+.galeria img {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+
+/* contactame */
+.input {
+    width: 80%;
+   
+}
+
+#msg {
+    width: 70%;
+}
+
+#enviar {
+    width: 25%;
+}
